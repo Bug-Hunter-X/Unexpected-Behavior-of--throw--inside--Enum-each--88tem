@@ -1,0 +1,1 @@
+This repository demonstrates an unexpected behavior of the `throw` macro within an `Enum.each` loop in Elixir.  The code intends to stop iteration upon finding the value 3, but `throw` doesn't interrupt `Enum.each` as one might expect. This leads to unexpected runtime exceptions. The solution provides a correct way to handle this scenario.
